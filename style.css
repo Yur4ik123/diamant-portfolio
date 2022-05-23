@@ -31,8 +31,11 @@
 .diamant-portfolio {
   font: 400 16px/24px 'Gotham Pro', sans-serif;
   overflow: hidden;
-  max-width: 1920px;
+  max-width: 2560px;
   margin: 0 auto; }
+  .diamant-portfolio img {
+    height: auto;
+    object-fit: contain; }
   .diamant-portfolio .section-header {
     font-size: 30px;
     line-height: 34px;
@@ -296,7 +299,8 @@
   .diamant-portfolio .main-page {
     background: #2C2E2C;
     border-radius: 0px 170px 0px 0px;
-    padding-top: 146px; }
+    padding-top: 146px;
+    margin-bottom: -360px; }
     .diamant-portfolio .main-page .container {
       position: relative;
       flex-direction: column; }
@@ -333,7 +337,7 @@
             line-height: 24px;
             color: #B9BAB9; }
         .diamant-portfolio .main-page .container .main-page-wrapper .title-block .item-1 {
-          margin-top: 280px; }
+          margin-top: 100px; }
         .diamant-portfolio .main-page .container .main-page-wrapper .title-block .item-2 {
           margin-top: 240px; }
         .diamant-portfolio .main-page .container .main-page-wrapper .title-block .item-3 {
@@ -343,6 +347,101 @@
         .diamant-portfolio .main-page .container .main-page-wrapper .title-block .item-5 {
           margin-top: 180px; }
         .diamant-portfolio .main-page .container .main-page-wrapper .img-wrapper img {
+          width: 100%;
+          object-fit: contain; }
+  .diamant-portfolio .slider-variants {
+    margin-bottom: -227px;
+    background: url("./img/slider-b.png") no-repeat center/cover;
+    padding-top: 400px; }
+    .diamant-portfolio .slider-variants .img-wrapper img {
+      width: 100%;
+      object-fit: contain; }
+  .diamant-portfolio .other-pages {
+    padding-top: 328px;
+    background: #00C435;
+    margin-bottom: -1000px; }
+    .diamant-portfolio .other-pages .container {
+      position: relative; }
+    .diamant-portfolio .other-pages .dots {
+      position: absolute;
+      top: -160px;
+      right: -200px; }
+    .diamant-portfolio .other-pages .img-wrapper {
+      margin-top: -180px;
+      padding-left: 170px; }
+      .diamant-portfolio .other-pages .img-wrapper img {
+        width: 100%;
+        object-fit: contain; }
+  .diamant-portfolio .mobile {
+    padding-top: 1300px;
+    background: #2C2E2C; }
+    .diamant-portfolio .mobile .img-wrapper {
+      position: relative; }
+      .diamant-portfolio .mobile .img-wrapper .tablet {
+        position: absolute;
+        bottom: -230px;
+        right: 0; }
+  .diamant-portfolio .full-img {
+    margin-bottom: -200px; }
+    .diamant-portfolio .full-img img {
+      height: auto;
+      width: 100%;
+      object-fit: contain; }
+  .diamant-portfolio .result {
+    position: relative;
+    background: #2C2E2C;
+    border-radius: 170px 0px 0px 0px; }
+    .diamant-portfolio .result .res-d-1 {
+      position: absolute;
+      top: -20px;
+      right: 100px; }
+    .diamant-portfolio .result .res-d-2 {
+      position: absolute;
+      bottom: 0;
+      left: 50px; }
+    .diamant-portfolio .result .result-wrapper {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      grid-gap: 90px; }
+      .diamant-portfolio .result .result-wrapper .left-part {
+        padding-top: 100px; }
+        .diamant-portfolio .result .result-wrapper .left-part .list {
+          margin-bottom: 110px;
+          /*     display: grid;
+               grid-template-columns: 1fr 1fr;
+               grid-gap:40px 70px;*/
+          columns: 2 auto; }
+          .diamant-portfolio .result .result-wrapper .left-part .list li {
+            margin-bottom: 40px;
+            display: grid;
+            grid-template-columns: 14px 1fr;
+            grid-gap: 22px; }
+            .diamant-portfolio .result .result-wrapper .left-part .list li .img svg {
+              margin-top: 5px; }
+            .diamant-portfolio .result .result-wrapper .left-part .list li .title {
+              font-size: 18px;
+              line-height: 28px;
+              color: white; }
+        .diamant-portfolio .result .result-wrapper .left-part .tech {
+          padding-bottom: 146px;
+          display: flex;
+          justify-content: space-between; }
+          .diamant-portfolio .result .result-wrapper .left-part .tech .tech-item .tech-header {
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 26px;
+            text-transform: uppercase; }
+          .diamant-portfolio .result .result-wrapper .left-part .tech .tech-item .tech-title {
+            font-size: 18px;
+            line-height: 22px;
+            color: white; }
+      .diamant-portfolio .result .result-wrapper .right-part {
+        align-self: end; }
+        .diamant-portfolio .result .result-wrapper .right-part img {
+          justify-self: center;
+          height: auto;
           width: 100%;
           object-fit: contain; }
 
