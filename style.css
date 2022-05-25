@@ -69,6 +69,7 @@
         justify-content: space-between; }
         .diamant-portfolio .main-section .container .left-part .ux-design, .diamant-portfolio .main-section .container .left-part .diamantplus {
           font-size: 18px;
+          font-weight: 500;
           line-height: 20px;
           letter-spacing: 0.01rem;
           color: #222227; }
@@ -444,5 +445,241 @@
           height: auto;
           width: 100%;
           object-fit: contain; }
+
+@media (max-width: 1650px) {
+  .diamant-portfolio .main-section .container .right-part .main-img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: -100px; }
+  .diamant-portfolio .main-section .container .right-part .right-part-wrapper {
+    display: none; }
+  .diamant-portfolio .main-section .container .right-part .m-d-2 {
+    display: none; } }
+@media (max-width: 1600px) {
+  .diamant-portfolio .container {
+    padding: 0 30px; }
+  .diamant-portfolio .about-task-section .task-row .img-part {
+    margin-right: 40px; }
+  .diamant-portfolio .main-section .container .left-part {
+    padding: 30px; } }
+@media (max-width: 1450px) {
+  .diamant-portfolio .fonts-colors .fonts-colors-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    max-width: 800px; }
+  .diamant-portfolio .main-page .container .main-page-wrapper .title-block .item-1 {
+    margin-top: 100px; }
+  .diamant-portfolio .main-page .container .main-page-wrapper .title-block .item-2 {
+    margin-top: calc(11vw); }
+  .diamant-portfolio .main-page .container .main-page-wrapper .title-block .item-3 {
+    margin-top: calc(14vw); }
+  .diamant-portfolio .main-page .container .main-page-wrapper .title-block .item-4 {
+    margin-top: calc(16vw); }
+  .diamant-portfolio .main-page .container .main-page-wrapper .title-block .item-5 {
+    margin-top: calc(13vw); } }
+@media (max-width: 1250px) {
+  .diamant-portfolio .main-section .container {
+    padding: 0; }
+    .diamant-portfolio .main-section .container .left-part {
+      padding: 15px; }
+      .diamant-portfolio .main-section .container .left-part .ux-design, .diamant-portfolio .main-section .container .left-part .diamantplus {
+        font-size: 16px;
+        line-height: 17px; }
+      .diamant-portfolio .main-section .container .left-part .main-mid .main-header {
+        font-size: 46px;
+        line-height: 50px;
+        margin-bottom: 19px; }
+      .diamant-portfolio .main-section .container .left-part .main-mid .main-subheader {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 28px; }
+      .diamant-portfolio .main-section .container .left-part .main-mid .main-title {
+        font-size: 16px;
+        line-height: 24px; }
+    .diamant-portfolio .main-section .container .right-part .main-img {
+      margin-bottom: -150px; }
+  .diamant-portfolio .section-header {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px; }
+  .diamant-portfolio .about-task-section .task-row.reverse {
+    margin-top: 0; }
+  .diamant-portfolio .main-page .container .main-page-wrapper {
+    grid-template-columns: 1fr; }
+    .diamant-portfolio .main-page .container .main-page-wrapper .title-block {
+      display: none; }
+  .diamant-portfolio .mobile {
+    padding-top: 1050px; }
+    .diamant-portfolio .mobile .img-wrapper .tablet {
+      width: 50%;
+      bottom: -149px; }
+  .diamant-portfolio .other-pages .img-wrapper {
+    margin-top: -120px;
+    padding-left: 0; }
+  .diamant-portfolio .full-img {
+    margin-bottom: -10px; }
+  .diamant-portfolio .result {
+    border-radius: 0; }
+    .diamant-portfolio .result .result-wrapper {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 40px;
+      width: 100%; }
+      .diamant-portfolio .result .result-wrapper .left-part {
+        padding-top: 70px; }
+        .diamant-portfolio .result .result-wrapper .left-part .list {
+          columns: 1 auto;
+          margin-bottom: 70px; }
+          .diamant-portfolio .result .result-wrapper .left-part .list li {
+            margin-bottom: 20px; }
+      .diamant-portfolio .result .result-wrapper .right-part {
+        height: 100%;
+        display: flex;
+        align-items: flex-end; } }
+@media (max-width: 960px) {
+  .diamant-portfolio .main-section .m-d {
+    display: none; }
+  .diamant-portfolio .main-section .container {
+    flex-direction: column; }
+    .diamant-portfolio .main-section .container .left-part {
+      min-width: 100%;
+      flex-basis: 100%; }
+      .diamant-portfolio .main-section .container .left-part .ux-design, .diamant-portfolio .main-section .container .left-part .diamantplus {
+        display: none; }
+      .diamant-portfolio .main-section .container .left-part .main-mid {
+        max-width: 100%;
+        margin-bottom: 30px; }
+    .diamant-portfolio .main-section .container .right-part {
+      min-width: 100%;
+      flex-basis: 100%; }
+      .diamant-portfolio .main-section .container .right-part .main-img {
+        margin-bottom: -50px; }
+  .diamant-portfolio .mobile {
+    padding-top: 700px; }
+  .diamant-portfolio .main-page {
+    padding-top: 90px; }
+  .diamant-portfolio .other-pages {
+    margin-bottom: -700px; }
+    .diamant-portfolio .other-pages .img-wrapper {
+      margin-top: 0; }
+  .diamant-portfolio .result .result-wrapper {
+    background: url("./img/result.png") no-repeat 140% center/contain; }
+    .diamant-portfolio .result .result-wrapper .right-part img {
+      display: none; } }
+@media (max-width: 850px) {
+  .diamant-portfolio .about-task-section {
+    margin-bottom: 20px; }
+    .diamant-portfolio .about-task-section .container .dots {
+      display: none; }
+    .diamant-portfolio .about-task-section .container .task-row {
+      flex-direction: column-reverse; }
+      .diamant-portfolio .about-task-section .container .task-row .img-part {
+        margin: 30px 0; }
+      .diamant-portfolio .about-task-section .container .task-row .title-part {
+        max-width: 100%;
+        width: 100%;
+        flex-basis: 100%; }
+        .diamant-portfolio .about-task-section .container .task-row .title-part .title {
+          font-size: 24px;
+          line-height: 26px;
+          margin-bottom: 30px; }
+        .diamant-portfolio .about-task-section .container .task-row .title-part .description {
+          font-size: 16px;
+          line-height: 24px;
+          max-width: 100%; }
+  .diamant-portfolio .fonts-colors .fonts-colors-wrapper .fonts .fc-header {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 18px; }
+  .diamant-portfolio .fonts-colors .fonts-colors-wrapper .fonts .font-wrapper .fz-fw .fzs {
+    margin-bottom: 40px; }
+    .diamant-portfolio .fonts-colors .fonts-colors-wrapper .fonts .font-wrapper .fz-fw .fzs .fzs-item {
+      font-size: 16px;
+      line-height: 18px; }
+  .diamant-portfolio .container {
+    padding: 0 15px; }
+  .diamant-portfolio .slider-variants {
+    margin-bottom: -110px; }
+  .diamant-portfolio .main-page .container .dots {
+    display: none; }
+  .diamant-portfolio .other-pages {
+    padding-top: 110px; }
+    .diamant-portfolio .other-pages .container .dots {
+      display: none; }
+  .diamant-portfolio .section-header {
+    margin-bottom: 40px; }
+  .diamant-portfolio .result .res-d-1 {
+    display: none; }
+  .diamant-portfolio .result .res-d-2 {
+    display: none; }
+  .diamant-portfolio .result .result-wrapper {
+    background: none;
+    grid-template-columns: 1fr; }
+    .diamant-portfolio .result .result-wrapper .left-part .list {
+      margin-bottom: 60px; }
+      .diamant-portfolio .result .result-wrapper .left-part .list li .title {
+        font-size: 16px;
+        line-height: 24px; }
+    .diamant-portfolio .result .result-wrapper .left-part .tech {
+      padding-bottom: 0; }
+      .diamant-portfolio .result .result-wrapper .left-part .tech .tech-item .tech-header {
+        font-size: 16px;
+        line-height: 24px; }
+      .diamant-portfolio .result .result-wrapper .left-part .tech .tech-item .tech-title {
+        font-size: 16px;
+        line-height: 24px; }
+    .diamant-portfolio .result .result-wrapper .right-part {
+      justify-content: center; }
+      .diamant-portfolio .result .result-wrapper .right-part img {
+        display: block;
+        width: 70%; } }
+@media (max-width: 650px) {
+  .diamant-portfolio .fonts-colors {
+    margin-bottom: 80px; }
+    .diamant-portfolio .fonts-colors .fonts-colors-wrapper .fonts .fc-header {
+      margin-bottom: 30px; }
+    .diamant-portfolio .fonts-colors .fonts-colors-wrapper .fonts .font-wrapper {
+      grid-template-columns: 1fr;
+      grid-gap: 25px; }
+      .diamant-portfolio .fonts-colors .fonts-colors-wrapper .fonts .font-wrapper .font-name {
+        font-size: 48px;
+        line-height: 48px; }
+      .diamant-portfolio .fonts-colors .fonts-colors-wrapper .fonts .font-wrapper .fz-fw .fzs {
+        margin-bottom: 40px; }
+        .diamant-portfolio .fonts-colors .fonts-colors-wrapper .fonts .font-wrapper .fz-fw .fzs .fzs-item {
+          font-size: 16px;
+          line-height: 18px; }
+    .diamant-portfolio .fonts-colors .fonts-colors-wrapper .colors .colors-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px; }
+      .diamant-portfolio .fonts-colors .fonts-colors-wrapper .colors .colors-wrapper .color-item {
+        align-self: center;
+        justify-self: center;
+        margin-right: 0; }
+        .diamant-portfolio .fonts-colors .fonts-colors-wrapper .colors .colors-wrapper .color-item .color {
+          width: 100px;
+          height: 100px;
+          margin-bottom: 25px; }
+  .diamant-portfolio .slider-variants {
+    padding-top: 340px; }
+    .diamant-portfolio .slider-variants .img-wrapper {
+      margin: 0 -110px; }
+  .diamant-portfolio .other-pages {
+    margin-bottom: -450px; }
+  .diamant-portfolio .mobile .img-wrapper .tablet {
+    width: 70%;
+    bottom: 0; } }
+@media (max-width: 500px) {
+  .diamant-portfolio .mobile {
+    padding-top: 620px; }
+  .diamant-portfolio .result .result-wrapper .left-part .tech {
+    flex-direction: column; }
+    .diamant-portfolio .result .result-wrapper .left-part .tech .tech-item {
+      margin-bottom: 30px; }
+      .diamant-portfolio .result .result-wrapper .left-part .tech .tech-item:last-child {
+        margin-bottom: 0; }
+  .diamant-portfolio .result .result-wrapper .right-part img {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
